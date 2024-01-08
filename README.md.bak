@@ -20,14 +20,7 @@ paths:
 			PUT/PATCH: update reord with the provided id
 			DELETE: delete the record with the provided id
 			
-	/auth/users/
+	/auth/users
 		Methods:
 			GET: returns all registered users
 			POST: given the (username, password, email) registers new user 
-			
-	/auth/token/login/
-		Methods:
-			POST: generates auth token  for the user (given the username and password) 
-			
-			
-			
